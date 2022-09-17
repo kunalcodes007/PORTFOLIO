@@ -174,4 +174,6 @@ border-radius: 50%;
     .svg a:hover{
         animation:shake .25s;
     }
-    
+    @media screen {
+        
+    }
