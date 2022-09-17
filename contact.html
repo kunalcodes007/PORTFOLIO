@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="/components/contact.css">
+</head>
+<body>
+<header>
+  
+       <div class="top"> <a href="/index.html">Kunalcodes007</a></div>
+   
+</header>
+<main>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+           <div class="text">GET IN TOUCH</div>
+    <input type="text" id="toName" placeholder="Your Name">
+    <input type="email" id="fromName" placeholder="Email id">
+    <input type="number" placeholder="Phone No">
+    <input type="text" id="msg" placeholder="Enter Your Message" >
+    <button onclick='sendEmail()' type="submit">SEND</button>
+        </form>
+  </div>
+  
+</main>
+<footer>
+    <div class="foot">Designed By Kunal Lingwal</div>
+</footer>
+ 
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("XFb1LQZRzx7vofWj1");
+   })();
+
+</script>
+
+  <script src="/script.js"></script>
+</body>
+</html>
