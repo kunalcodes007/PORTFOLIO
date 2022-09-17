@@ -5,7 +5,7 @@ function sendEmail(){
         message:document.getElementById("msg").value,
 
     };
-emailjs.send('service_c1agj4o','template_bn51o6k',tempParams).then(function(res){
+emailjs.send('YOUR SERVICE ID','YOUR TEMPLATE ID',tempParams).then(function(res){
     console.log("success,res.status")
     alert('MESSAGE SENT!');
 })
