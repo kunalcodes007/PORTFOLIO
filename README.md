@@ -8,6 +8,7 @@ AND EMAIL SERVICES: EMAILJS.
 
 GETTING STARTED WITH EMAILJS:
 JUMP TO :https://www.emailjs.com/
+
 REGISTER AN ACCOUNT
 
 CLICK ON SERVICES->ADD NEW SERVICE->UPDATE SERVICE.
@@ -19,29 +20,20 @@ NOTE DOWN YOUR SERVICE_ID AND TEMPLATE_ID MENTIONED IN RESPECTIVE SECTIONS.
 
 copy and paste the following code: 
 
+
     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("XFb1LQZRzx7vofWj1");
-   })();
-
-</script>
-
-  <script src="/script.js"></script>
-function sendEmail(){
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript"> (function(){
+      emailjs.init("XFb1LQZRzx7vofWj1");})();</script> <script src="/script.js"></script>function sendEmail(){
     var tempParams={
         from_name:document.getElementById("fromName").value,
         to_name:document.getElementById("toName").value,
         message:document.getElementById("msg").value,
 
-    };
-emailjs.send('YOUR SERVICE ID','YOUR TEMPLATE ID',tempParams).then(function(res){
+    };emailjs.send('YOUR SERVICE ID','YOUR TEMPLATE ID',tempParams).then(function(res){
     console.log("success,res.status")
-    alert('MESSAGE SENT!');
-})
-}
+    alert('MESSAGE SENT!');})
+
 
 
 
