@@ -24,6 +24,7 @@ header{
     
 }
 .kunal{
+    margin-top:12px;
     font-size:25px;
     font-weight: bolder;
     color:#64ffda;
@@ -73,13 +74,11 @@ header .navbar ul li ul li:hover>a{
     color:darkblue;
 }
 main{
-height:calc(100px - 100% - 100%);
-padding:194px;
+padding:150px;
     
 }
 
 footer{
-    height:100%;
     margin-top:194px;
     color:#ccd6f6;
     text-align: center;

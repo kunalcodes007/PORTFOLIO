@@ -48,7 +48,7 @@ text-shadow:
 }
 .box1{
   background: rgba(59,130,246,0.5);
-  height:31vh;
+  height:33vh;
   margin:220px;
   border:2px solid whitesmoke;
   border-radius:10px;
@@ -115,6 +115,7 @@ font-family: 'Stick No Bills', sans-serif;
 }
 .work2{
   margin-left: 12px;
+  margin-top:10px;
   color:gainsboro;
   font-size: 19px;
 }
