@@ -53,6 +53,7 @@ text-shadow:
   border:2px solid whitesmoke;
   border-radius:10px;
   display: block;
+  text-align: center;
 }
 .box1 .dot1 {
   margin-left: 8px;
@@ -121,13 +122,13 @@ font-family: 'Stick No Bills', sans-serif;
 }
 .link-text a{
   color:gainsboro;
+  margin-right:80px;
 }
 .box2{
   /* display:block; */
-  
+  text-align: center;
   background: rgba(59,130,246,0.5);
-  height:31vh;
-  width:30vw;
+  height:34vh;
  margin:220px;
   border:2px solid whitesmoke;
   border-radius:10px;
@@ -169,7 +170,7 @@ font-family: 'Gideon Roman', cursive;
 font-family: 'Stick No Bills', sans-serif;
 }
 .box2 .link-text a{
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 @keyframes shake {
